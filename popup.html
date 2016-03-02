@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Getting Started Extension's Popup</title>
+    <title>Similar Items search - demo widget</title>
     <style>
         body {
             font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
             font-size: 100%;
         }
+        h4 {
+            margin: 0 0 10px;
+        }
+        input {
+            margin: 0 10px;
+        }
     </style>
+    <script src="scripts/jquery-2.2.1.min.js"></script>
     <script src="popup.js"></script>
 </head>
 <body>
 <div id="status" style="width: 300px">
-    <label>New<input type="radio" name="lala" checked/></label>
-    <label>Same<input type="radio" name="lala"/></label>
+    <h4>Open products:</h4>
+    <label>New tab<input id="newTab" type="radio" name="radios" checked value="1"/></label>
+    <label>Same tab<input id="sameTab" type="radio" name="radios" value="0"/></label>
 </div>
 </body>
 </html>

@@ -7,6 +7,9 @@
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
+  "permissions": [
+    "tabs", "storage", "http://*/*", "https://*/*"
+  ],
   "content_scripts": [
     {
       "js": [
@@ -21,13 +24,6 @@
         "styles/spinner.css"
       ]
     }
-  ],
-  "permissions": [
-    "activeTab"
-  ],
-  "permissions": [
-    "tabs",
-    "<all_urls>"
   ],
   "web_accessible_resources": [
     "images/*.png",
