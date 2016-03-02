@@ -1,7 +1,8 @@
 # Similar Items search - demo widget
 
 ### Installing extension
-- Uncompress folder `ext.zip`
+- Download via .zip
+- Uncompress folder `chrome-ext-master.zip`
 - Open Google Chrome Extensions manager: type `chrome://extensions/` in browser address bar.
 - Enable Developer mode
 - Click `Load unpacked extension..` button and chose uncompressed folder with extension
